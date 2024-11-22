@@ -37,16 +37,16 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60861.20128511924!2d120.39244185000001!3d17.563512799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338e6f821753bae5%3A0x20035e6de330b125!2sVigan%20City%2C%20Ilocos%20Sur!5e0!3m2!1sen!2sph!4v1731081789696!5m2!1sen!2sph"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246434.94127693036!2d120.83846082862603!3d15.183260033658241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33971c930080ed95%3A0xc726b0302c5b6b2d!2sSan%20Miguel%2C%20Bulacan!5e0!3m2!1sen!2sph!4v1731673454458!5m2!1sen!2sph" 
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+          <div className="bg-green-900 relative flex flex-wrap py-6 rounded shadow-md">
+            <div className="lg:w-1/3 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Vigan City <br />
-                Ilocos Sur
+                San Miguel <br />
+                Bulacan
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -54,7 +54,7 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                kvbravo@ceu.edu.ph
+                santos2105187@ceu.edu.ph
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
@@ -79,13 +79,14 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+          My approach blends creativity, attention to detail, and a commitment to delivering
+          results tailored to your unique needs. Let’s collaborate to make your next project a success. 
+          Contact me today, and let’s get started!
           </p>
 
           {/* Name Input */}
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm text-black-400">
               Name
             </label>
             <input
@@ -94,14 +95,14 @@ export default function Contact() {
               name="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-black-800 rounded border border-black-700 focus:border-blue-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               required
             />
           </div>
 
           {/* Email Input */}
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-sm text-black-400">
               Email
             </label>
             <input
@@ -110,7 +111,7 @@ export default function Contact() {
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white-800 rounded border border-black-700 focus:border-blue-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               required
             />
           </div>
@@ -119,7 +120,7 @@ export default function Contact() {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-400"
+              className="leading-7 text-sm text-black-400"
             >
               Message
             </label>
@@ -128,7 +129,7 @@ export default function Contact() {
               name="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white-800 rounded border border-black-700 focus:border-blue-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-black-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               required
             />
           </div>
@@ -136,7 +137,7 @@ export default function Contact() {
           {/* Submit Button */}
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            className="text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
           >
             Submit
           </button>

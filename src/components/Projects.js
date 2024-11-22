@@ -9,12 +9,15 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            My Certificates
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+          This certificate recognizes the completion of the TESDA National Certificate II NC II in 
+          demonstrating proficiency in nationally accredited skills and competencies. 
+          Additionally, it includes successful completion from Coursera, showcasing advanced knowledge and
+          practical application. Furthermore, the Credly digital badge highlights verified expertise and 
+          validated through rigorous industry-standard assessments. Collectively, these achievements affirm 
+          the recipient's commitment to continuous learning and professional development.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
